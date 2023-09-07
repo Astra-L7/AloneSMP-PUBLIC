@@ -1,0 +1,1 @@
+give @s snowball{display:{Name:'{"text":"Fireball"}'},fireball:1b} 1

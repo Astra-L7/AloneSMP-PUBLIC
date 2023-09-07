@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "###",
+      "#X#",
+      "O#O"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:blaze_rod"
+      },
+      "X": {
+        "item": "minecraft:golden_apple",
+        "data": 0
+      },
+      "O": {
+        "item": "minecraft:paper",
+        "data": 6,
+        "count": 32
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book",
+      "count": 6
+    }
+  }

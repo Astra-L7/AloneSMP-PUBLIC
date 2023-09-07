@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "impossible:recipe_healing"
+            }
+        }
+    },
+    "rewards": {
+        "function": "impossible:scrolls/healing_scroll"
+    }
+}

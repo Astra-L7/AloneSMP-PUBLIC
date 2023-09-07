@@ -1,0 +1,1 @@
+give @p blaze_rod{Enchantments:[{id:"knockback",lvl:10}],Unbreakable:1b,display:{Name:'[{"text":"YEET BLADE","bold":true,"color":"yellow"}]'}}

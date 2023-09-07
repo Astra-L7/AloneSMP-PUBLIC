@@ -1,0 +1,1 @@
+give @p egg{bridge:1,display:{Name:'{"text":"Bridge Egg","italic": false,"color": "orange"}'}} 16

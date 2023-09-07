@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "impossible:recipe_implosion"
+            }
+        }
+    },
+    "rewards": {
+        "function": "impossible:scrolls/explosion_scroll"
+    }
+}

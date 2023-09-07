@@ -1,0 +1,1 @@
+summon item ~ ~0.5 ~ {Tags:["bombbow"],Item:{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text":"The Sticky Bomb Bow","color":"#41BF28","bold":true}',Lore:['{"text":"The Bow Is Enriched With Compact Slime","color":"#41BF28","bold":true}']},Enchantments:[{}]}}}

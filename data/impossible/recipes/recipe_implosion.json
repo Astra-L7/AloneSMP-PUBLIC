@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "O#O"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:tnt"
+    },
+    "X": {
+      "item": "minecraft:nether_star",
+      "data": 0
+    },
+    "O": {
+      "item": "minecraft:paper",
+      "data": 6
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 5
+  }
+}
