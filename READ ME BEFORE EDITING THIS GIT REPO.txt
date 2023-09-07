@@ -1,11 +1,11 @@
 Before you start editing this repo make sure when you are to export 
 this datapack into minecraft for testing,
 make sure you compress (turn into a .zip file)
-all of the files within the folder "SOURCE CODE".
+all of the files within the parent folder (whatever your named it).
 
 -----STEPS-----
 1. Delete this .txt file it WILL interfere with the game code and it will NOT work. (You can make a backup somewhere else)
-2. Zip the contents of the folder called "SOURCE CODE". Do NOT zip the folder itself, but zip the stuff inside of the folder.
+2. Zip the contents of the parent folder. Do NOT zip the folder itself, but zip the stuff inside of the folder.
 
 -----IF YOU ARE CREATING A FRESH WORLD-----
 
@@ -31,5 +31,8 @@ A: If the "datapacks" folder is not there then you must create it within the "wo
 
 Q: How do I contribute back into the SOURCE git repo?
 A: You just need to send a pull request back to the SOURCE git repo from yours!
+
+Q: What is a "Parent Folder"?
+A: A parent folder is the folder which contains this repo. (Example): You have a text file inside a folder called myTextFolder. The "myTextFolder" folder is the parent folder.
 
 (c) Rishi Patwardhan 2023 ALL RIGHTS RESERVED 
