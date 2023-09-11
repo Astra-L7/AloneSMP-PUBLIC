@@ -1,5 +1,7 @@
 # AloneSMP-PUBLIC v 0.8
 
+# How to install / edit.
+
 Before you start editing this repo make sure when you are to export 
 this datapack into minecraft for testing,
 make sure you compress (turn into a .zip file)
@@ -37,5 +39,19 @@ A: You just need to send a pull request back to the SOURCE git repo from yours!
 
 Q: How do I contact you?
 A: Leave a comment on this repo and I will try to respond as fast as possible.
+
+# Abilities
+
+## EssenceLunatic
+
+
+## KingWaluigi1
+
+
+## AstralTyphoon
+
+
+## SSPMiners
+
 
 (c) Rishi Patwardhan 2023 ALL RIGHTS RESERVED 
