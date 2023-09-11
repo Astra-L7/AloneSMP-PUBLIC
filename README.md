@@ -17,7 +17,7 @@ all of the files within the folder "SOURCE CODE".
 3. If you are creating a world in 1.20 or newer, click on the "DATAPACKS" menu and you can drag the newly made .zip file into the datapack temp folder.
 4. Create the world and test the datapack!
 
-## IF YOU ARE PUTTING THE DATAPACK IN AN EXISTING WORLD-----
+## IF YOU ARE PUTTING THE DATAPACK IN AN EXISTING WORLD
 
 3. Drag the newly made .zip file in to the "datapacks" within your world folder. (See the bottom on how to access the world file)
 4. Use /reload in the game and the datapack will load.
