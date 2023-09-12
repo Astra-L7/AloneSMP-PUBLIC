@@ -1,0 +1,11 @@
+summon evoker_fangs ^ ^-2 ^3 
+summon evoker_fangs ^ ^-2 ^4 
+summon evoker_fangs ^ ^-2 ^5 
+summon evoker_fangs ^ ^-2 ^6 
+summon evoker_fangs ^ ^-2 ^7 
+summon evoker_fangs ^ ^-2 ^-3 
+summon evoker_fangs ^ ^-2 ^-4 
+summon evoker_fangs ^ ^-2 ^-5 
+summon evoker_fangs ^ ^-2 ^-6 
+summon evoker_fangs ^ ^-2 ^-7 
+say YOU WONT SURVIVE THIS!!

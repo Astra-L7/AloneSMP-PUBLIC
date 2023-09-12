@@ -132,17 +132,7 @@ execute as @e[tag=follower,limit=1] if score @p ability matches 700 at @e[tag=fo
 
 execute if score @p ability matches 1060.. run scoreboard players reset @a ability
 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^3 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^4 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^5 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^6 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^7 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^-3 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^-4 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^-5 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^-6 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run summon evoker_fangs ^ ^-2 ^-7 
-execute as @e[tag=follower,limit=1] if score @p ability matches 1020 run say YOU WONT SURVIVE THIS!!
+execute as @e[tag=follower,limit=1] if score @p ability matches 1020..1060 at @e[tag=follower,limit=1] anchored eyes run impossible:follow_boss
 
 #bomb-bow
 execute as @a[nbt={SelectedItem:{id:"minecraft:bow",tag:{Enchantments:[{}]}}}] at @e[type=arrow,nbt={inGround:true}] run tag @e[type=arrow,nbt={inGround:false,HasBeenShot:true,},distance=..40] add bomb
