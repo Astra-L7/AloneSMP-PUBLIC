@@ -1,4 +1,5 @@
 scoreboard players add @a time 1
+
 #thor hammer
 execute as @a[scores={carrot=1..,mana=60..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{thor:1}}}] at @s anchored eyes run summon minecraft:lightning_bolt ^ ^-1 ^7
 #mana thor hammer
