@@ -1,3 +1,5 @@
+scoreboard players add @a tick_timer 1
+execute as @a at @a if score tick_timer matches 20.. run scoreboard players add @a second_timer 1
 scoreboard players add @a time 1
 
 #thor hammer
