@@ -187,11 +187,11 @@ execute as @a[scores={RightClick=1..,mana=50..},nbt={SelectedItem:{id:"minecraft
 
 #for Hudaifa
 
+execute as @a at @a if predicate impossible:Chance1-50 run function impossible:squacc_possession
+
 #for jan
 
 #for Michael
-
-execute as @a at @a if predicate impossible:Chance1-50 run function impossible:squacc_possession
 
 # to reset the interaction entity
 execute as @a[scores={RightClick=1..}] at @s unless entity @e[tag=int,distance=..1] run summon minecraft:interaction ~ ~5 ~ {Tags: ["int"],height:2,width:2}
