@@ -176,6 +176,7 @@ execute as @a[nbt={SelectedItem:{tag:{int:1b,life:1b}}},scores={mana=150..,Right
 function impossible:scrolls/interaction/interaction
 
 # abilities:
+
 #for Rishi
 #fly
 execute as @a if predicate impossible:is_holding_flystick run effect give @s levitation 1 6 true
@@ -184,7 +185,11 @@ execute as @a if predicate impossible:is_holding_hoverstick run effect give @s l
 #for tnt cannon
 execute as @a[scores={RightClick=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:blaze_rod"}}] at @s[scores={RightClick=1..},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{int:1b,tnt_launch:1b}}}] run function impossible:throw
 execute as @a[scores={RightClick=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:blaze_rod"}}] at @s[scores={RightClick=1..},nbt={SelectedItem:{id:"minecraft:blaze_rod",tag:{int:1b,tnt_launch:1b}}}] run scoreboard players remove @s mana 50
-
+#robot body
+execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s minecraft:saturation 5 2 true
+#metal construct
+execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s minecraft:resistance 5 5 true
+execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s minecraft:strength 5 3 true
 
 
 #for Hudaifa
