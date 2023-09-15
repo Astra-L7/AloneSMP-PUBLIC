@@ -190,7 +190,8 @@ execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s
 #metal construct
 execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s minecraft:resistance 5 5 true
 execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s minecraft:strength 5 3 true
-
+#might of the ai
+execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s minecraft:health_boost 900 20 true
 
 #for Hudaifa
 
