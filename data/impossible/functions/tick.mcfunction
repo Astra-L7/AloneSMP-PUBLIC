@@ -196,6 +196,7 @@ execute as SSPMiners at @s if score is_evil_ai @s matches 1.. run effect give @s
 #for Hudaifa
 
 execute as @a at @a if score second_timer @s matches 60.. if predicate impossible:Chance1-50 run function impossible:squacc_possession
+execute as KingWaluigi1 at @s if score second_timer @s matches 45.. run function impossible:old_wounds 
 
 #for jan
 
